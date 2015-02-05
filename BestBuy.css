@@ -19,7 +19,6 @@ header {
 .wrapper {
     max-width: 1080px;
     margin: auto;
-    /*outline: black solid 1px;*/
 }
 
 a {
@@ -31,7 +30,7 @@ li {
 }
 
 .store {
-    margin-left: 18px;
+    margin-left: 14px;
     margin-top: 1.3%;
 }
 
@@ -44,6 +43,7 @@ li {
 
 .store a {
     margin-right: 20px;
+    font-size: 13px;
 }
 
 .navigation {
@@ -86,14 +86,15 @@ li {
 }
 
 .account {
-    margin-right: 1%;
-    width: 35%;
-    margin-left: 50px;
+    /*margin-right: 1%;*/
+    width: 30%;
+    margin-left: 55px;
 }
 
     .account a {
         float: left;
-        margin-right: 15px;
+        font-size: 13px;
+        margin-right: 18px;
         margin-top: 10px;
     }
 
@@ -111,7 +112,7 @@ li {
 
 #shopping-cart {
     width: 10%;
-    margin-left: 10px;
+    margin-left: 20px;
     cursor: pointer;
 }
 
@@ -189,7 +190,7 @@ li {
 
 .deals a {
     float: left;
-    margin: 30px 0 30px 130px;
+    margin: 25px 0 25px 130px;
     color: #000;
     font-size: 15px;
     font-weight: bold;
@@ -243,5 +244,55 @@ li {
     font-size: 15px;
     line-height: 38px;
     letter-spacing: 1px;
-    margin-top: 
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.footer-links {
+    font-family: Arial;
+    float: left;
+    width: 25%;
+    color: #0067b1;
+    font-size: 13px;
+    line-height: 28px;
+}
+
+.terms-conditions a {
+    font-family: Arial;
+    float: left;
+    color: #0067b1;
+    font-size: 11px;
+    line-height: 1.5;
+    margin-top: 20px;
+    padding-right: 28px;
+    margin-bottom: 10px;
+}
+
+.footer-social a {
+    font-family: Arial;
+    float: left;
+    color: #0067b1;
+    font-size: 11px;
+    line-height: 1.5;
+    padding: 10px 20px 20px 0;
+}
+
+.social-circle {
+    margin-top: 3px;
+}
+
+.disclaimer, .truste {
+    float: left;
+}
+
+.disclaimer {
+    font-size: 11px;
+    font-family: Arial;
+    line-height: 1.5;
+    color: #49494a;
+    width: 82%;
+}
+
+.truste {
+    width: 15%;
 }
